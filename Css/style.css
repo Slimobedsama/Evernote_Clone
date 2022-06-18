@@ -10,12 +10,17 @@ body, h1, h2, h3, h4, h5, h6, p {
 .main-header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .img-logo {
     width: 200px;
     height: auto;
+}
+
+.logo {
+    margin-right: -100px;
+    margin-left: -50px;
 }
 
 .header-container {
@@ -37,4 +42,12 @@ body, h1, h2, h3, h4, h5, h6, p {
 .navbar-1 a, .navbar-2 a {
     text-decoration: none;
     color: black;
+}
+
+.navbar-1 ul {
+    margin-left: -200px;
+}
+
+.navbar-1 li {
+    font-weight: 700;
 }
