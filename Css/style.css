@@ -9,6 +9,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .main-header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 16px;
 }
 
 .img-logo {
@@ -16,3 +18,23 @@ body, h1, h2, h3, h4, h5, h6, p {
     height: auto;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -10px;
+}
+/* Flex the unorderlist to put the list on the same line */
+.navbar-1 ul, .navbar-2 ul {
+    display: flex;
+}
+/* Remove the dot and set the list-style-type to none*/
+.navbar-1 li, .navbar-2 li {
+    list-style-type: none;
+    padding: 10px;
+}
+/* Remove the underline from the links and remove the default color */
+.navbar-1 a, .navbar-2 a {
+    text-decoration: none;
+    color: black;
+}
